@@ -34,11 +34,15 @@ nav ul li {
   margin-right: 10px;
 }
 
-.container ul li:last-child {
+.container .grey_left li:last-child {
   margin-left: 10px;
 }
 
-.list-nav_left li i,a {
+.grey_right li a:last-child {
+  margin-left: 10px;
+}
+
+.grey_left > li > a {
   text-decoration: none;
   color: #32495b;
 }
@@ -91,6 +95,11 @@ nav ul li {
   float: right;
 }
 
+.white_right > li > a {
+  color: #32495b;
+  text-decoration: none;
+}
+
 .white_right li {
   margin-right: 15px;
   line-height: 100px;
@@ -118,4 +127,42 @@ nav ul li {
   position: absolute;
   bottom: 0;
   background-color: #afebe4;
+}
+
+.jumbo_text {
+  margin-right: 60%;
+}
+
+.jumbo_title {
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.jumbo_title > h1 {
+  font-size: 50px;
+  color: #33475b;
+}
+
+.jumbo_subtitle > p {
+  color: #33475b;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.jumbo_text > .button {
+  display: inline-block;
+  padding: 20px 20px;
+  margin-bottom: 30px;
+}
+
+.jumbo_text > .button > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.jumbo_subtext > p {
+  color: #33475b;
+  font-size: 12px;
 }
