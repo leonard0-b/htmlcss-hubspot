@@ -99,3 +99,23 @@ nav ul li {
 .white_right li i {
   margin-left: -10px;
 }
+
+.jumbo_bg {
+  background-color: #fff4ef;
+  height: 741px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 100% 0;
+  position: relative;
+}
+
+.green100 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  bottom: 0;
+  background-color: #afebe4;
+}
