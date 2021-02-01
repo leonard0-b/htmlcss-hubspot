@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f4f9fd;
+  background-color: #ffffff;
 }
 
 .row:after {
@@ -218,6 +218,13 @@ nav ul li {
   margin-top: 50px;
 }
 
+.row {
+  height: 100%;
+  border-radius: 10px;
+  background-image: linear-gradient(to right top, #fff3ee, #fff5f5, #fff9fb, #fefcfe, #ffffff);
+}
+
+
 .col {
   float: left;
 }
@@ -227,8 +234,7 @@ nav ul li {
 }
 
 .w30 {
-  width: 33.3%;
-  background-color: #ffffff;
+  width: 30%;
 }
 
 .img_book > img {
@@ -248,14 +254,26 @@ nav ul li {
 }
 
 .w70 {
-  width: 66.7%;
-  background-color: #ffffff;
+  width: 70%;
 }
 
 .w33 {
   width: calc(100% / 3);
-  border: 1px solid black;
-  background-color: #f4f9fd;
+  background-color: #ffffff;
+  padding: 40px 0;
+}
+
+.col-left {
+  padding-left: 0;
+  padding-right: 45px;
+}
+
+.col-right {
+  padding-right: 0;
+  padding-left: 45px;
+}
+
+.col-center {
   padding: 40px 30px;
 }
 
@@ -267,6 +285,7 @@ nav ul li {
   padding-top: 70px;
   padding-bottom: 70px;
   padding-right: 255px;
+  padding-left: 70px;
 }
 
 .crm_title > h3 {
@@ -311,12 +330,28 @@ nav ul li {
   color: #fe775a;
 }
 
+.content-w30 {
+  text-align: center;
+  padding: 82px 30px;
+}
+
+.content-w30 > img {
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
 .content-w33 {
   padding-right: 15px;
   background-color: #ffffff;
   text-align: center;
   padding: 50px 50px;
+  background-image: linear-gradient(to right top, #fff3ee, #fff5f5, #fff9fb, #fefcfe, #ffffff);
+  border-radius: 10px;
 }
+
 
 .content-w33 > img {
   display: block;
@@ -353,4 +388,11 @@ nav ul li {
 .content-w33 > a {
   margin-top: 35px;
   margin-bottom: 35px;
+}
+
+.row2 {
+  width: 80%;
+  margin: auto;
+  background-color: lightgreen;
+  height: 200px;
 }
