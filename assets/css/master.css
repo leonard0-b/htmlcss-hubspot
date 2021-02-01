@@ -5,6 +5,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  background-color: #f4f9fd;
+}
+
 .row:after {
   content:"";
   display: table;
@@ -211,6 +215,7 @@ nav ul li {
 .container_row {
   width: 80%;
   margin: auto;
+  margin-top: 50px;
 }
 
 .col {
@@ -218,30 +223,134 @@ nav ul li {
 }
 
 .w100 {
-  width: 100%;
-  background-color: lightblue;
   border: 1px solid black;
+}
+
+.w30 {
+  width: 33.3%;
+  background-color: #ffffff;
+}
+
+.img_book > img {
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+.crmbutton {
+  display: inline-block;
+  padding: 20px 30px;
+  margin-top: 14px;
+}
+
+.img_book {
+  padding-bottom: 10px;
+}
+
+.w70 {
+  width: 66.7%;
+  background-color: #ffffff;
 }
 
 .w33 {
   width: calc(100% / 3);
-  height: 100px;
-  background-color: lightblue;
   border: 1px solid black;
+  background-color: #f4f9fd;
+  padding: 40px 30px;
 }
 
-.img_w100 {
-  padding: 50px 10%;
-  padding-bottom: 15px;
-
-}
-
-.img_w100 > img {
-  width: 150px;
-}
-
-.w100 > .button {
+.crm_subtitle {
   display: inline-block;
-  margin-left: 10%;
-  padding: 20px 30px;
+}
+
+.text_w70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-right: 255px;
+}
+
+.crm_title > h3 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.crm_subtitle > h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.crm_text > p {
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.text_w70 > hr {
+  width: 497px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+.list_w70 > ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.list_w70 ul li {
+  display: inline-block;
+}
+
+.list_w70 ul .first {
+  margin-left: -15px;
+}
+
+.fa-check-circle {
+  margin-right: 10px;
+  margin-left: 15px;
+  color: #fe775a;
+}
+
+.content-w33 {
+  padding-right: 15px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.content-w33 > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: 100px;
+}
+
+.content-w33 > h3 {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.content-w33 > p {
+  font-size: 14px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+.content-w33 > h4 {
+  margin-top: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.content-w33 > ul {
+  margin-top: 25px;
+  list-style: none;
+  text-align: left;
+}
+
+.content-w33 > a {
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
