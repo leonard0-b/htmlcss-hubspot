@@ -20,8 +20,12 @@ body {
   margin: auto;
 }
 
-nav {
-  background-color: #f4f9fd;
+.nav_top {
+  background-image: linear-gradient(to right bottom, #00bea5, #36c6b1, #50cebc, #67d6c7, #7bded2);
+}
+
+.top_left li span {
+  color: #ffffff;
 }
 
 nav ul {
@@ -34,39 +38,42 @@ nav ul li {
   display: inline-block;
 }
 
+.fa-atlas {
+  color: #ffffff;
+}
+
 .list-nav li:nth-child(3) {
   margin-right: 10px;
 }
 
-.container .grey_left li:last-child {
+.container .top_left li:last-child {
   margin-left: 10px;
 }
 
-.grey_right li a:last-child {
+.top_right li a:last-child {
   margin-left: 10px;
 }
 
-.grey_left > li > a {
+.top_left > li > a,i {
   text-decoration: none;
-  color: #32495b;
 }
 
-.nav_grey {
+.nav_top {
   border-bottom: 1px solid black;
   height: 90px;
 }
 
-.grey_right {
+.top_right {
   float: right;
 }
 
-.grey_right i {
+.top_right i {
   color: #00a4bd;
   margin-right: 15px;
   text-decoration: none;
 }
 
-.grey_right > .orange {
+.top_right > .orange {
   text-decoration: none;
   color: #ffffff;
 }
@@ -80,8 +87,8 @@ nav ul li {
 
 .white {
   background-color: #ffffff;
-  color: #fe775a;
-  border: 1px solid #fe775a;
+  color: #7bded2;
+  border: 1px solid #7bded2;
 }
 
 .orange {
@@ -221,7 +228,7 @@ nav ul li {
 .row {
   height: 100%;
   border-radius: 10px;
-  background-image: linear-gradient(to right top, #fff3ee, #fff5f5, #fff9fb, #fefcfe, #ffffff);
+  background-image: linear-gradient(to left top, #ffcbb0, #ffd4c0, #ffded0, #ffe8df, #fff2ee);
 }
 
 .col {
@@ -356,7 +363,8 @@ nav ul li {
   background-color: #ffffff;
   text-align: center;
   padding: 50px 50px;
-  background-image: linear-gradient(to right top, #fff3ee, #fff5f5, #fff9fb, #fefcfe, #ffffff);
+  /* background-image: linear-gradient(to right top, #fff3ee, #fff5f5, #fff9fb, #fefcfe, #ffffff); */
+  background-image: linear-gradient(to left top, #ffcbb0, #ffd4c0, #ffded0, #ffe8df, #fff2ee);
   border-radius: 10px;
 }
 
@@ -589,8 +597,9 @@ nav ul li {
 
 footer {
   margin-top: 50px;
-  background-color: #32495b;
   padding-bottom: 50px;
+  padding-top: 30px;
+  background-image: linear-gradient(to right bottom, #32495b, #244663, #15436b, #053e72, #033978);
 }
 
 .row-footer:after {
